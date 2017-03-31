@@ -16,10 +16,10 @@ namespace PrimeNumbers
             // Convert string to Int
             int num = Convert.ToInt32(numString);
 
-            // number is frime iff [(n - 1)! + 1]/n is an integer
+            // number is prime iff [(n - 1)! + 1]/n is an integer
             for (int i = 0; i <= 100; i++ )
             {
-                if 
+                
             }
 
 
