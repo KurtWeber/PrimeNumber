@@ -30,7 +30,7 @@ namespace PrimeNumbers
             // Wilson's Theorem: number is prime iff [(n - 1)! + 1]/n is an integer
             // figure out how to remove 1 as prime
 
-            if (((facNum + 1) % num) == 0)
+            if (((facNum + 1) % num) == 0 && num != 1)
             {
                 Console.WriteLine("The number {0} is a prime number", num);
             }
