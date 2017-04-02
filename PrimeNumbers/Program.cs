@@ -19,14 +19,18 @@ namespace PrimeNumbers
 
             // calculating factorial
             facNum = num - 1;
-            
-            //for (int j = 1; j < facNum; j++)
-            //{
-            //    facNum = facNum * j;
-            //}
+            int limit = facNum;
+            Console.WriteLine("num = {0} and facNum = {1}", num, facNum);
+
+            for (int i = 1; i < limit; i++)
+            {
+                Console.WriteLine("num = {0} and facNum = {1}", num, facNum);
+                Console.WriteLine("i = {0}",i);
+                facNum = facNum * i;
+            }
 
             // number is prime iff [(n - 1)! + 1]/n is an integer
-           
+
 
 
             Console.WriteLine("num = {0} and facNum = {1}", num, facNum);
