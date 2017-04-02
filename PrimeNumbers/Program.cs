@@ -17,16 +17,18 @@ namespace PrimeNumbers
             // Convert string to Int
             int num = Convert.ToInt32(numString);
 
+            // calculating factorial
+            facNum = num - 1;
+            
+            //for (int j = 1; j < facNum; j++)
+            //{
+            //    facNum = facNum * j;
+            //}
+
             // number is prime iff [(n - 1)! + 1]/n is an integer
-            for (int i = 0; i <= 100; i++ )
-            {
-                // calculating factorial
-                facNum = num - 1;
-                for (int j = 1; j < num; j++)
-                {
-                    facNum *= j;
-                }         
-            }
+           
+
+
             Console.WriteLine("num = {0} and facNum = {1}", num, facNum);
 
         }
