@@ -36,6 +36,8 @@ namespace PrimeNumbers
             {
                 Console.WriteLine("{0} is not a prime number", num);
             }
+            Console.Write("Press any key to exit");
+            Console.ReadKey();
         }
     }
 }
